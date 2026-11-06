@@ -1,0 +1,4 @@
+Reading,0
+Kinesthetic,1
+Visual,2
+Auditory,3

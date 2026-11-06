@@ -1,0 +1,6 @@
+
+
+[on hit]
+inputs = 2
+input_categories = form
+output = control

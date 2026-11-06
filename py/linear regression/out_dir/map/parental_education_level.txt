@@ -1,0 +1,5 @@
+Some College,0
+PhD,1
+High School,2
+Master,3
+Bachelor,4

@@ -1,0 +1,28 @@
+[2026-02-26 18:21:15] === test2 ===
+[2026-02-26 18:21:24]  18 | Player1 | HP: 28 | Status: 
+[2026-02-26 18:21:24]  15 | Player2 | HP: 24 | Status: 
+[2026-02-26 18:21:24]  14 | Goblin 2 | HP: 7 | Status: 
+[2026-02-26 18:21:24]  12 | Goblin 1 | HP: 7 | Status: 
+[2026-02-26 18:21:50] === test2 ===
+[2026-02-26 18:21:50]  18 | Player1 | HP: 28 | Status: 
+[2026-02-26 18:21:50]  15 | Player2 | HP: 24 | Status: 
+[2026-02-26 18:21:50]  14 | Goblin 2 | HP: 7 | Status: 
+[2026-02-26 18:21:50]  12 | Goblin 1 | HP: 7 | Status: 
+[2026-02-26 18:23:38] Player1 -> move and attacks goblin 1 (5 slashing)
+[2026-02-26 18:24:23] Player2 -> cast firebolt at goblin 1 (3 fire) DEAD
+[2026-02-26 18:24:47] Goblin 2 -> move to player 1 and attacks (3 bluedgioning)
+[2026-02-26 18:24:59] Goblin 1 -> DEAD
+[2026-02-26 18:25:18] Player1 -> attacks goblin 2 (miss)
+[2026-02-26 18:25:34] Player2 -> cast firebolt to goblin 2 (2 fire)
+[2026-02-26 18:26:26]  18 | Player1 | HP: 28 | Status: 
+[2026-02-26 18:26:26]  15 | Player2 | HP: 24 | Status: 
+[2026-02-26 18:26:26]  14 | Goblin 2 | HP: 7 | Status: 
+[2026-02-26 18:26:26]  12 | Goblin 1 | HP: 7 | Status: 
+[2026-02-26 18:26:40]  18 | Player1 | HP: 28 | Status: 
+[2026-02-26 18:26:40]  15 | Player2 | HP: 24 | Status: 
+[2026-02-26 18:26:40]  14 | Goblin 2 | HP: 7 | Status: 
+[2026-02-26 18:27:07] Goblin 2 -> attaks player 1 (miss)
+[2026-02-26 18:27:33] Player1 -> attaks golbin 2 (5 slashing) DEAD
+[2026-02-26 18:28:07]  18 | Player1 | HP: 28 | Status: 
+[2026-02-26 18:28:07]  15 | Player2 | HP: 24 | Status: 
+[2026-02-26 18:30:07] === encounter ended ===

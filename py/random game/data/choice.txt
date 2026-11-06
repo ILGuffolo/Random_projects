@@ -1,0 +1,35 @@
+Attack the @enemy@ with your weapon
+Try to reason with the @enemy@
+Flee toward a nearby a %place%
+Hide behind something in the @place@
+Search the @place@ for useful items
+Set a trap for the @enemy@
+Call out for help
+Investigate a strange noise in the @place@
+Climb to higher ground in the @place@
+Sneak past the @enemy@ unnoticed
+Look around for loot
+Use magic against the @enemy@
+Distract the @enemy@ and escape
+Examine the environment of the @place@
+Prepare defenses in the @place@
+Negotiate a deal with the @enemy@
+Scout the area around the @place@
+Check your equipment for advantages
+Use the $loot$ against the @enemy@
+Examine the $loot$ for clues on how to escape the @enemy@
+Trade the $loot$ to gain an advantage over the @enemy@
+Hide the $loot$ before confronting the @enemy@
+Negotiate a deal with the @npc@ to gain information about the @enemy@.
+Use the $loot$ to impress or distract the @npc@.
+Follow the @npc@'s advice cautiously as you enter the @place@.
+Confront the @npc@ about the rumors surrounding the @enemy@.
+Hide from the @npc@ and observe their movements in the @place@.
+Offer help to the @npc@ in exchange for guidance through the @place@.
+Throw the $loot$ to distract the @enemy@ and gain cover in £place£.
+Call on the @npc@’s advice before confronting the @enemy@ in the @place@.
+Sneak back to £place£ to find a safer path around the @enemy@.
+Set a trap using the $loot$ while the @enemy@ is distracted.
+Signal the @npc@ to create a diversion so you can escape the @enemy@.
+Use the $loot$ to negotiate passage past the @enemy@ at @the place@.
+Observe the @enemy@ from £place£ before deciding your next move.

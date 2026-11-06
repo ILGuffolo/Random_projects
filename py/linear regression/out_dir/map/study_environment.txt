@@ -1,0 +1,5 @@
+Co-Learning Group,0
+Library,1
+Quiet Room,2
+Dorm,3
+Cafe,4

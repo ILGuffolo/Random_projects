@@ -1,0 +1,6 @@
+Computer Science,0
+Arts,1
+Psychology,2
+Business,3
+Engineering,4
+Biology,5

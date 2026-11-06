@@ -1,0 +1,194 @@
+[
+  {
+    "id": "crypt_hall",
+    "name": "Forgotten Hall",
+    "theme": "Crypt",
+    "desc": "A long stone corridor lined with cracked burial niches.",
+    "rarity": "Common",
+    "loot_mod": 0.9,
+    "threat_mod": 0.8
+  },
+  {
+    "id": "crypt_tomb",
+    "name": "Sealed Tomb",
+    "theme": "Crypt",
+    "desc": "A modest burial chamber with a weathered sarcophagus.",
+    "rarity": "Common",
+    "loot_mod": 1.1,
+    "threat_mod": 1.0
+  },
+  {
+    "id": "crypt_ossuary",
+    "name": "Ossuary",
+    "theme": "Crypt",
+    "desc": "Bones are stacked neatly against every wall.",
+    "rarity": "Common",
+    "loot_mod": 1.0,
+    "threat_mod": 1.2
+  },
+  {
+    "id": "crypt_chapel",
+    "name": "Forgotten Chapel",
+    "theme": "Crypt",
+    "desc": "Broken pews face a crumbling altar.",
+    "rarity": "Uncommon",
+    "loot_mod": 1.3,
+    "threat_mod": 1.1
+  },
+  {
+    "id": "crypt_royal_vault",
+    "name": "Royal Vault",
+    "theme": "Crypt",
+    "desc": "Noble remains rest beneath faded banners.",
+    "rarity": "Uncommon",
+    "loot_mod": 1.5,
+    "threat_mod": 1.4
+  },
+  {
+    "id": "crypt_lord_tomb",
+    "name": "Tomb of the Deathlord",
+    "theme": "Crypt",
+    "desc": "A colossal black sarcophagus dominates the room.",
+    "rarity": "Rare",
+    "loot_mod": 2.2,
+    "threat_mod": 2.0
+  },
+  {
+    "id": "cavern_tunnel",
+    "name": "Winding Tunnel",
+    "theme": "Cavern",
+    "desc": "A narrow cave passage twists into darkness.",
+    "rarity": "Common",
+    "loot_mod": 0.8,
+    "threat_mod": 1.0
+  },
+  {
+    "id": "cavern_pool",
+    "name": "Underground Pool",
+    "theme": "Cavern",
+    "desc": "Clear water reflects the cave ceiling.",
+    "rarity": "Common",
+    "loot_mod": 1.0,
+    "threat_mod": 0.9
+  },
+  {
+    "id": "cavern_fungi",
+    "name": "Fungal Grove",
+    "theme": "Cavern",
+    "desc": "Pale mushrooms blanket the ground.",
+    "rarity": "Common",
+    "loot_mod": 1.1,
+    "threat_mod": 1.1
+  },
+  {
+    "id": "cavern_nest",
+    "name": "Beast Nest",
+    "theme": "Cavern",
+    "desc": "Bones and scraps surround a massive den.",
+    "rarity": "Uncommon",
+    "loot_mod": 1.4,
+    "threat_mod": 1.6
+  },
+  {
+    "id": "cavern_crystal",
+    "name": "Crystal Chamber",
+    "theme": "Cavern",
+    "desc": "Glittering crystals emerge from every surface.",
+    "rarity": "Uncommon",
+    "loot_mod": 1.6,
+    "threat_mod": 1.2
+  },
+  {
+    "id": "cavern_abyss",
+    "name": "Bottomless Abyss",
+    "theme": "Cavern",
+    "desc": "A vast chasm swallows all light.",
+    "rarity": "Rare",
+    "loot_mod": 2.0,
+    "threat_mod": 2.3
+  },
+  {
+    "id": "fort_barracks",
+    "name": "Barracks",
+    "theme": "Fortress",
+    "desc": "Rows of rotten bunks fill the room.",
+    "rarity": "Common",
+    "loot_mod": 1.0,
+    "threat_mod": 1.0
+  },
+  {
+    "id": "fort_armory",
+    "name": "Old Armory",
+    "theme": "Fortress",
+    "desc": "Rusted weapon racks line the walls.",
+    "rarity": "Common",
+    "loot_mod": 1.2,
+    "threat_mod": 1.1
+  },
+  {
+    "id": "fort_storehouse",
+    "name": "Supply Storehouse",
+    "theme": "Fortress",
+    "desc": "Crates and barrels clutter the floor.",
+    "rarity": "Common",
+    "loot_mod": 1.1,
+    "threat_mod": 0.9
+  },
+  {
+    "id": "fort_command",
+    "name": "Command Room",
+    "theme": "Fortress",
+    "desc": "Maps and military relics remain scattered about.",
+    "rarity": "Uncommon",
+    "loot_mod": 1.4,
+    "threat_mod": 1.3
+  },
+  {
+    "id": "fort_gauntlet",
+    "name": "Trap Gauntlet",
+    "theme": "Fortress",
+    "desc": "The room itself seems designed to kill intruders.",
+    "rarity": "Uncommon",
+    "loot_mod": 1.5,
+    "threat_mod": 1.7
+  },
+  {
+    "id": "fort_throne",
+    "name": "Warlord's Throne",
+    "theme": "Fortress",
+    "desc": "A massive iron throne overlooks the chamber.",
+    "rarity": "Rare",
+    "loot_mod": 2.1,
+    "threat_mod": 2.0
+  },
+  {
+    "id": "omega_observatory",
+    "name": "The Observatory Beyond Stars",
+    "theme": "Omega",
+    "desc": "The ceiling is an endless night sky despite being underground. Constellations drift slowly, changing shape whenever observed.",
+    "rarity": "Legendary",
+    "loot_mod": 5.0,
+    "threat_mod": 0.5,
+    "quirk": "Each turn may reveal the map, grant a permanent bonus, or spawn a cosmic entity."
+  },
+  {
+    "id": "omega_clock",
+    "name": "The Last Clock",
+    "theme": "Omega",
+    "desc": "A colossal clockwork mechanism fills an impossible chamber. Every gear turns silently.",
+    "rarity": "Legendary",
+    "loot_mod": 3.5,
+    "threat_mod": 3.5,
+    "quirk": "Changes a global game rule for the remainder of the run."
+  },
+  {
+    "id": "omega_throne_void",
+    "name": "The Empty Throne",
+    "theme": "Omega",
+    "desc": "A lone throne sits in a black void stretching beyond sight. Something should be sitting there.",
+    "rarity": "Legendary",
+    "loot_mod": 8.0,
+    "threat_mod": 5.0,
+    "quirk": "Player chooses to sit, destroy, or leave, permanently affecting the run."
+  }
+]

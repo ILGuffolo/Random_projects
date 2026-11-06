@@ -1,0 +1,9 @@
+[fast]
+inputs = 0
+output = modifier
+
+shapes= (200, 100, 50)
+	circle 0 0 1.0 3
+	circle 0.5 0 0.5 2
+	circle -0.5 0 0.5 2
+	line 0.5 0 -0.5 0
