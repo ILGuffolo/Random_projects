@@ -1,3 +1,5 @@
 py/sudoku alogritms/sudoku.csv
 py/task_menager/tasks.json
 py/AI hand gestures/sceenshots/*
+py/AI hand gestures/dataset/*
+py/AI hand gestures/dataset.zip
