@@ -5,6 +5,16 @@ import time
 import os
 from datetime import datetime
 
+# Import custom actions
+from actions.open_palm import run as open_palm_action
+from actions.fist import run as fist_action
+from actions.thumbs_up import run as thumbs_up_action
+from actions.victory import run as victory_action
+from actions.quit import run as quit_action
+from actions.thumbs_down import run as thumbs_down_action
+from actions.pointing_up import run as pointing_up_action
+
+
 # ==========================================
 # CONFIGURATION
 # ==========================================
@@ -24,40 +34,19 @@ SCREENSHOT_FOLDER = "screenshots"
 
 os.makedirs(SCREENSHOT_FOLDER, exist_ok=True)
 
-global isQuit
 
 # ==========================================
 # CUSTOM ACTIONS
 # ==========================================
-
-def open_palm_action():
-    print("ACTION: Open palm detected!")
-
-
-def fist_action():
-    print("ACTION: Fist detected!")
-
-
-def thumbs_up_action():
-    print("ACTION: Thumbs up detected!")
-
-
-def victory_action():
-    print("ACTION: Victory detected!")
-    
-def quit_action():
-    isQuit = True
-    print("ACTION: Quit!")
-    
-    
-
 
 ACTIONS = {
     "Open_Palm": open_palm_action,
     "Closed_Fist": fist_action,
     "Thumb_Up": thumbs_up_action,
     "Victory": victory_action,
-    "ILoveYou": quit_action
+    "ILoveYou": quit_action,
+    "Thumb_Down": thumbs_down_action,
+    "Pointing_Up": pointing_up_action
 }
 
 
@@ -75,7 +64,11 @@ def run_gesture(gesture):
 
     if action:
         print(f"Executing: {gesture}")
-        action()
+
+        # True means the application should quit
+        return action() is True
+
+    return False
 
 
 def update_gesture(detected_gesture):
@@ -86,12 +79,12 @@ def update_gesture(detected_gesture):
     # Gesture matches current state
     if detected_gesture == hand_state:
         stability_start = None
-        return
+        return False
 
     # Start timer when a change is detected
     if stability_start is None:
         stability_start = time.perf_counter()
-        return
+        return False
 
     # Check stability
     elapsed = time.perf_counter() - stability_start
@@ -102,9 +95,13 @@ def update_gesture(detected_gesture):
 
         print(f"Hand state changed: {hand_state}")
 
-        run_gesture(hand_state)
+        should_quit = run_gesture(hand_state)
 
         stability_start = None
+
+        return should_quit
+
+    return False
 
 
 # ==========================================
@@ -169,9 +166,7 @@ try:
         last_timestamp = 0
 
         while True:
-            # setup
-            isQuit = False
-            
+
             # 1. Receive webcam frame
             success, frame = camera.read()
 
@@ -282,7 +277,7 @@ try:
                         )
 
             # 8. Update gesture state
-            update_gesture(detected_gesture)
+            should_quit = update_gesture(detected_gesture)
 
             # 9. Display current state
             status = f"Hand state: {hand_state or 'None'}"
@@ -323,7 +318,7 @@ try:
             # 12. Keyboard controls
             key = cv2.waitKey(1) & 0xFF
 
-            if key == ord('q') or isQuit:
+            if key == ord('q') or should_quit:
                 break
 
             elif key == ord('s'):
